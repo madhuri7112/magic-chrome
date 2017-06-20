@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "Chrome Wand",
-  "description": "This is for automating some regular stuff",
+  "name": "Magic chrome",
+  "description": "This is for automating some regular stuff in chrome",
   "version": "1.0",
 
   "browser_action": {
