@@ -5,5 +5,5 @@ Nothing fancy.
 
 ## What is built till now?
 
-- Blocking of some websites(social networking site especially) except on certain days of the week
+- Blocks some websites(social networking site especially) except on certain days of the week
    \- helps me in not wasting time on facebook :P
