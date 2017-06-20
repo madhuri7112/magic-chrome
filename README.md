@@ -1,5 +1,4 @@
 # magic-chrome
-Does magic in chrome!
 
 This is a simple chrome extension to perform some of my personal regural chrome stuff.
 Nothing fancy.
