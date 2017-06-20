@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "Chrome Wand",
+  "description": "This is for automating some regular stuff",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+
+  "permissions": [
+    "activeTab",
+    "https://*/",
+    "tabs",
+    "storage"
+  ],
+  
+  "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   }
+}
