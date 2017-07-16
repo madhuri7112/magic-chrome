@@ -19,8 +19,8 @@ var restrictWebsites = function(tabId, changeInfo, tabInfo) {
 
 	currentDate = new Date();
 	curentDayOfWeekIndex = currentDate.getDay();
-    
-	if (curentDayOfWeekIndex in allowedDaysForRestrictedWebsites) {
+
+	if (curentDayOfWeekIndex in allowedDaysForRestrictedWebsites[domain]) {
 		return;
 	} else {
 		chrome.tabs.update(tabId, {url: redirectUrl});
